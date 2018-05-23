@@ -1,6 +1,6 @@
 ## DR-SassMobileFirstContactForm
 
-#### This is a simple, mobile-first contact form made with SASS
+#### This is a simple, mobile-first contact form made with SASS.
 
 Click here to see the form: https://darylrue.github.io/DR-SassMobileFirstContactForm/contact-form.html
 
