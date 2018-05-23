@@ -1,4 +1,4 @@
-@import "mixins";
+@import "../../MobileFirstForm/css/mixins";
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600);
 
 $background-color: #4CAF52;
@@ -55,21 +55,21 @@ form {
 	flex-flow: column nowrap;
 	
 	.form-header {
-	margin: 0;
-	padding: 0;
-	font-size: 30px;
-	font-weight: 100;
-	color: #666;
-	@include transition(font-size, .3s);
-	@include when-width(576px) {
-		font-size: 32px;
-	}
-	@include when-width(768px) {
-		font-size: 34px;
-	}
-	@include when-width(992px) {
-		font-size: 36px;
-	}
+		margin: 0;
+		padding: 0;
+		font-size: 30px;
+		font-weight: 100;
+		color: #666;
+		@include transition(font-size, .3s);
+		@include when-width(576px) {
+			font-size: 32px;
+		}
+		@include when-width(768px) {
+			font-size: 34px;
+		}
+		@include when-width(992px) {
+			font-size: 36px;
+		}
 	}
 	
 	input, textarea {
