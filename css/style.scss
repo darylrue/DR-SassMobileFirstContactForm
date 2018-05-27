@@ -3,7 +3,7 @@
 
 $background-color: #4CAF52;
 $input-border-color: #bbb;
-$form-padding: 25px;
+$form-padding: 26px;
 
 html, body {
 	width: 100%;
@@ -47,7 +47,7 @@ html, body {
 }
 
 form {
-	$dimensions: calc(100% - #{$form-padding} / 2);
+	$dimensions: 100%;
 	width: $dimensions;
 	height: $dimensions;
 	box-sizing: border-box;
